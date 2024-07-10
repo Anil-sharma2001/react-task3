@@ -1,0 +1,51 @@
+.app {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .column-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .task-list {
+    background: #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    min-height: 500px;
+  }
+  
+  .task-list-inner {
+    transition: background-color 0.2s ease;
+  }
+  
+  .dragging-over {
+    background-color: #d0e7ff;
+  }
+  
+  .task-item {
+    user-select: none;
+    padding: 14px;
+    margin: 0 0 8px 0;
+    background-color: #456c86;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dragging {
+    background-color: #26384a !important;
+  }
+  
